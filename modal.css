@@ -1,0 +1,91 @@
+.modal {
+	/* Backdrop */
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 2;
+
+	/* Content */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.35s ease-in-out;
+}
+
+.modal form {
+	width: 50%;
+	transition: all 0.35s ease-in-out;
+	display: inline-flex;
+}
+
+.modal input {
+	flex: 1 1 auto;
+	background: none;
+	border: none;
+	border-bottom: 2px solid white;
+	caret-color: white;
+	color: white;
+	font-size: 30px;
+}
+
+.modal input:focus,
+.modal input:focus-visible {
+	outline: none;
+}
+
+.modal input::placeholder {
+	font-size: 30px;
+	color: white;
+}
+
+.modal i {
+	align-self: center;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.modal .close-modal {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 50px;
+}
+
+@media (max-width: 991.98px) {
+	.modal form {
+		width: 70%;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.modal form {
+		width: 80%;
+	}
+
+	.modal input,
+	.modal input::placeholder,
+	.modal i {
+		font-size: 22px;
+	}
+
+	.modal .close-modal {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 360px) {
+	.modal form {
+		width: 90%;
+	}
+
+	.modal input,
+	.modal input::placeholder,
+	.modal i {
+		font-size: 18px;
+	}
+
+	.modal .close-modal {
+		font-size: 30px;
+	}
+}

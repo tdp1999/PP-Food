@@ -1,0 +1,80 @@
+#menu {
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#menu .container .card::after {
+	font-family: 'Font Awesome 5 Free';
+	content: '\f004';
+	font-weight: 900;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	top: 30px;
+	right: 35px;
+	color: var(--secondary-color);
+	font-size: 30px;
+	background-color: var(--bg-color);
+	padding: 12px 14px;
+	border-radius: 50%;
+}
+
+#menu img {
+	max-width: 100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+#menu .card {
+	padding: 20px 30px;
+}
+
+.menu-card-info {
+	text-align: start;
+}
+
+.menu-card-info h3 {
+	margin: 10px 0;
+}
+
+.menu-card-info p {
+	margin: 0;
+}
+
+.menu-card-info .price {
+	margin-top: 10px;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.menu-card-info .price span {
+	margin-left: 10px;
+}
+
+@media (max-width: 1199.98px) {
+	#menu {
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	#menu {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	#menu {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.menu-card-info p {
+		font-size: 14px;
+	}
+}
