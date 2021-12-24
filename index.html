@@ -75,7 +75,7 @@
 		</header>
 
 		<section id="slider">
-			<div class="swiper-container slider-home">
+			<div class="swiper swiper-container slider-home">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="slide">
@@ -240,7 +240,7 @@
 
 			<!-- <i style="background-color: white; border-radius: 50%; padding: 20px" class="fas fa-search"></i> -->
 			<div class="container">
-				<img src="/images/about-img.png" alt="" />
+				<img src="./images/about-img.png" alt="" />
 				<div class="info">
 					<h2>Best Food In The Country</h2>
 					<p>
@@ -267,7 +267,7 @@
 			<h2>TODAY'S SPECIAL</h2>
 			<div class="container">
 				<div class="card">
-					<img src="/images/menu-1.jpg" alt="" />
+					<img src="./images/menu-1.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -285,7 +285,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="/images/menu-2.jpg" alt="" />
+					<img src="./images/menu-2.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -303,7 +303,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="/images/menu-3.jpg" alt="" />
+					<img src="./images/menu-3.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -321,7 +321,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="/images/menu-4.jpg" alt="" />
+					<img src="./images/menu-4.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -339,7 +339,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="/images/menu-5.jpg" alt="" />
+					<img src="./images/menu-5.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -357,7 +357,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="/images/menu-6.jpg" alt="" />
+					<img src="./images/menu-6.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -375,7 +375,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="/images/menu-7.jpg" alt="" />
+					<img src="./images/menu-7.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -393,7 +393,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="/images/menu-8.jpg" alt="" />
+					<img src="./images/menu-8.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -411,7 +411,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="/images/menu-9.jpg" alt="" />
+					<img src="./images/menu-9.jpg" alt="" />
 					<div class="menu-card-info">
 						<div>
 							<i class="fas fa-star"></i>
@@ -434,12 +434,12 @@
 		<section class="content" id="review">
 			<h4>Customer's Review</h4>
 			<h2>WHAT THEY SAY</h2>
-			<div class="swiper-container review-carousel">
+			<div class="swiper swiper-container review-carousel">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<div class="card-wrapper">
 							<div class="info-quote">
-								<img src="/images/pic-1.png" alt="" />
+								<img src="./images/pic-1.png" alt="" />
 								<div>
 									<h4>John Deo 1</h4>
 									<div class="rating">
@@ -463,7 +463,7 @@
 					<div class="swiper-slide">
 						<div class="card-wrapper">
 							<div class="info-quote">
-								<img src="/images/pic-2.png" alt="" />
+								<img src="./images/pic-2.png" alt="" />
 								<div>
 									<h4>John Deo 2</h4>
 									<div class="rating">
@@ -487,7 +487,7 @@
 					<div class="swiper-slide">
 						<div class="card-wrapper">
 							<div class="info-quote">
-								<img src="/images/pic-3.png" alt="" />
+								<img src="./images/pic-3.png" alt="" />
 								<div class="rating">
 									<h4>John Deo 3</h4>
 									<div>
@@ -511,7 +511,7 @@
 					<div class="swiper-slide">
 						<div class="card-wrapper">
 							<div class="info-quote">
-								<img src="/images/pic-4.png" alt="" />
+								<img src="./images/pic-4.png" alt="" />
 								<div>
 									<h4>John Deo 4</h4>
 									<div class="rating">
@@ -542,15 +542,15 @@
 			<form id="form">
 				<div>
 					<label for="name">Your name</label>
-					<input type="text" name="name" placeholder="Enter your name" />
+					<input id="name" type="text" name="name" placeholder="Enter your name" />
 				</div>
 				<div>
 					<label for="phone">Phone number</label>
-					<input type="tel" name="phone" placeholder="Enter your phone number" />
+					<input id="phone" type="tel" name="phone" placeholder="Enter your phone number" />
 				</div>
 				<div>
-					<label for="order">Your order</label>
-					<select name="order" id="order">
+					<label for="orderOption">Your order</label>
+					<select name="order" id="orderOption">
 						<option value="option1">option 1</option>
 						<option value="option2">option 2</option>
 						<option value="option3">option 3</option>
@@ -561,27 +561,27 @@
 
 				<div>
 					<label for="additional">Additional Food</label>
-					<input type="text" name="Additional" placeholder="Extra topping goes with food" />
+					<input id="additional" type="text" name="Additional" placeholder="Extra topping goes with food" />
 				</div>
 
 				<div>
 					<label for="quantity">Order quantity</label>
-					<input type="number" name="quantity" placeholder="How many servings you want to buy" />
+					<input id="quantity" type="number" name="quantity" placeholder="How many servings you want to buy" />
 				</div>
 
 				<div>
 					<label for="time">Date and time</label>
-					<input type="datetime-local" name="time" placeholder="Time you want us to deliver" />
+					<input id="time" type="datetime-local" name="time" placeholder="Time you want us to deliver" />
 				</div>
 
 				<div>
 					<label for="address">Your address</label>
-					<input type="text" name="address" placeholder="Enter your address" />
+					<input id="address" type="text" name="address" placeholder="Enter your address" />
 				</div>
 
 				<div>
 					<label for="message">Your message</label>
-					<input type="text" name="message" placeholder="Your additional message here" />
+					<input id="message" type="text" name="message" placeholder="Your additional message here" />
 				</div>
 				<button>Order Now</button>
 			</form>
